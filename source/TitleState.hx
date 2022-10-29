@@ -108,9 +108,9 @@ class TitleState extends MusicBeatState
 		titleJSON = Json.parse(File.getContent(path));
 		#else
 		
-		path = Paths.getPreloadPath("images/gfDanceTitle.json");
 		
-		titleJSON = Json.parse(Assets.getText(path)); 
+		
+		
 		#end
 		
 		

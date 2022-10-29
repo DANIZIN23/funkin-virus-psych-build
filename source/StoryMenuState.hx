@@ -326,7 +326,7 @@ class StoryMenuState extends MusicBeatState
 		var newImagePath:String = '';
 		
 			newImagePath = image.assetsKey;
-		else
+		
 			newImagePath = image;
 
 		if(newImagePath != lastImagePath)
